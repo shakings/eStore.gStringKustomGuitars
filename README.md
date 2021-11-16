@@ -1,10 +1,11 @@
 # gStringKustomGuitars
 
 You are required to build a highly scalable secured web application to manage a list of products and categories.
-The gStringKustomGuitars portal have been design on the microsoft .NET Core Platfrom. The web application consist of GUI, API, MSSQL
+The gStringKustomGuitars portal have been design on the microsoft .NET Core Platfrom. The web application consist of GUI, API, MSSQL 
+Visual Studio 2019 was used to build the application.
 
 ## Get Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 1.  Clone https://github.com/shakings/eStore.gStringKustomGuitars.git 
     (Use Git or checkout with SVN using the web URL.)
@@ -15,6 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 The gStringKustomGuitars.Api will be the project where the connectionString will be required to be configured.
 
 The appsettings.json file can be found in the project of the API.
+
 1.  Will be require to change your server name in the connectionString to ensure that API will connect to your database server or your localhost(development environment).
 2.  After the database has been restored you also need to ensure that you change the databaseName if it's not the same in the connectionString.
 
@@ -23,4 +25,9 @@ The appsettings.json file can be found in the project of the API.
   }
   
   ### Build & Compile Solution
+  The eStore.gStringKustomGuitars.sln have been configured for the GUI & API. 
+ 
+  1. Click on the eStore.gStringKustomGuitars.sln to open the solution.
+  2. Goto the menu click on "Build" build the solution.
 
+  ![image](https://user-images.githubusercontent.com/4200022/142019394-9b7f9857-2ad5-401b-a283-cf7f7c21165d.png)

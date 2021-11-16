@@ -28,6 +28,16 @@ The appsettings.json file can be found in the project of the API.
   The eStore.gStringKustomGuitars.sln have been configured for the GUI & API. 
  
   1. Click on the eStore.gStringKustomGuitars.sln to open the solution.
-  2. Goto the menu click on "Build" build the solution.
+  2. Goto the menu click on "Build" build the solution or press Ctrl+Shift+Del
 
   ![image](https://user-images.githubusercontent.com/4200022/142019394-9b7f9857-2ad5-401b-a283-cf7f7c21165d.png)
+  
+  3. Goto the menu click on "Debug" start debugging or press F5.
+  4. You are suppose to see the screen below: 
+
+  ![image](https://user-images.githubusercontent.com/4200022/142020490-b875eee6-dc04-4673-851b-8b976d598959.png)
+
+
+
+
+

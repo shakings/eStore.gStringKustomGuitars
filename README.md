@@ -37,6 +37,10 @@ The appsettings.json file can be found in the project of the API.
 
   ![image](https://user-images.githubusercontent.com/4200022/142020490-b875eee6-dc04-4673-851b-8b976d598959.png)
 
+# Overview Diagrams
+
+![image](https://user-images.githubusercontent.com/4200022/142020741-4cf732ad-b4cd-437d-8bcf-cdaa6729e614.png)
+![image](https://user-images.githubusercontent.com/4200022/142020787-b51bf405-b588-4927-8e99-a71fcb42abe2.png)
 
 
 

@@ -33,4 +33,7 @@ The appsettings.json file can be found in the project of the API.
   ![image](https://user-images.githubusercontent.com/4200022/142019394-9b7f9857-2ad5-401b-a283-cf7f7c21165d.png)
   
   3. Goto the menu click on "Debug" start debugging or press F5.
+
+  ![image](https://user-images.githubusercontent.com/4200022/142021668-e0a50d5f-8eda-4668-8693-693d1a24c581.png)
+
  

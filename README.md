@@ -21,4 +21,6 @@ The appsettings.json file can be found in the project of the API.
 "ConnectionStrings": {
     "ConnectionString": "Server=ServerName;Database=DatabaseName;Trusted_Connection=True;MultipleActiveResultSets=true;"
   }
+  
+  ### Build & Compile Solution
 

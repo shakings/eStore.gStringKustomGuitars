@@ -1,0 +1,28 @@
+﻿@model gStringKustomGuitars.Web.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Import";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>gStringKustomGuitars.com</h1>
+<h4>| eStore Managment Portal | Import Products</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="BuilkImport" enctype="multipart/form-data">
+              <div class="form-group">
+                <input asp-for="UploadFile" type="file" accept=".csv">
+                <span asp-validation-for="image" class="text-danger"></span>
+            </div>
+            <hr />
+            <div class="form-group">
+                <a asp-action="Index" class="btn btn-danger">Back</a>
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

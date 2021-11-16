@@ -1,0 +1,77 @@
+﻿@model IEnumerable<gStringKustomGuitars.Web.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>gStringKustomGuitars.com</h1>
+<h4>| eStore Managment Portal | Products</h4>
+<br />
+<p>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-danger">Back</a>
+    <a asp-action="Create" class="btn btn-primary">Create New</a> 
+    | <a asp-action="Import" asp-controller="Product" class="btn btn-info">Import</a> 
+    | <a asp-action="Export" asp-controller="Product" class="btn btn-info">Export</a>
+</p>
+<table id="tblProducts" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoryName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.price)
+                </td>
+                <td>
+                    <img src="data:image/jpg;base64,@item.image" width="80" height="80" />
+                </td>
+                <td>
+                    @Html.HiddenFor(modelItem => item.categoryId)
+                    @Html.DisplayFor(modelItem => item.categoryName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.id  })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,269 @@
+2021-11-16 15:01:06.855 +02:00 [INF] User profile is available. Using 'C:\Users\isdev089\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-16 15:01:07.443 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-16 15:01:07.444 +02:00 [INF] Hosting environment: Development
+2021-11-16 15:01:07.444 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars.Web
+2021-11-16 15:01:07.545 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/ - -
+2021-11-16 15:01:07.633 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:07.746 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:01:07.803 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:08.074 +02:00 [INF] Executed ViewResult - view Index executed in 280.5046ms.
+2021-11-16 15:01:08.077 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web) in 329.8184ms
+2021-11-16 15:01:08.078 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:08.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/ - - - 200 - text/html;+charset=utf-8 553.2800ms
+2021-11-16 15:01:09.833 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44329/ application/x-www-form-urlencoded 233
+2021-11-16 15:01:09.834 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:09.859 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(gStringKustomGuitars.Web.Models.LoginModel) on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:01:12.079 +02:00 [INF] Executing RedirectResult, redirecting to /Home.
+2021-11-16 15:01:12.080 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web) in 2220.9772ms
+2021-11-16 15:01:12.081 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:12.082 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44329/ application/x-www-form-urlencoded 233 - 302 - - 2249.0947ms
+2021-11-16 15:01:12.085 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:01:12.086 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:12.088 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:01:12.089 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:12.100 +02:00 [INF] Executed ViewResult - view Index executed in 11.5816ms.
+2021-11-16 15:01:12.100 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 12.2103ms
+2021-11-16 15:01:12.100 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:12.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 16.0680ms
+2021-11-16 15:01:13.748 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product - -
+2021-11-16 15:01:13.750 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:13.754 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:01:13.818 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:13.874 +02:00 [INF] Executed ViewResult - view Index executed in 55.719ms.
+2021-11-16 15:01:13.876 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web) in 122.1758ms
+2021-11-16 15:01:13.876 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:13.885 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product - - - 200 - text/html;+charset=utf-8 136.7740ms
+2021-11-16 15:01:16.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product/Export - -
+2021-11-16 15:01:16.912 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.ExportAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:01:16.914 +02:00 [INF] Route matched with {action = "Export", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExportAsync() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:01:16.935 +02:00 [INF] Executing FileContentResult, sending file with download name '20211116-3..csv' ...
+2021-11-16 15:01:16.944 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.ExportAsync (gStringKustomGuitars.Web) in 29.3191ms
+2021-11-16 15:01:16.944 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.ExportAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:01:16.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product/Export - - - 200 310581 text/csv 41.6756ms
+2021-11-16 15:01:31.613 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:01:31.613 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:31.613 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:01:31.613 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:31.615 +02:00 [INF] Executed ViewResult - view Index executed in 1.4216ms.
+2021-11-16 15:01:31.615 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 1.6444ms
+2021-11-16 15:01:31.615 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:31.615 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 2.3523ms
+2021-11-16 15:01:33.270 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product - -
+2021-11-16 15:01:33.270 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:33.271 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:01:33.289 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:33.307 +02:00 [INF] Executed ViewResult - view Index executed in 18.6482ms.
+2021-11-16 15:01:33.308 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web) in 36.9085ms
+2021-11-16 15:01:33.308 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:33.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product - - - 200 - text/html;+charset=utf-8 47.6713ms
+2021-11-16 15:01:36.796 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:01:36.796 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:36.796 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:01:36.796 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:36.797 +02:00 [INF] Executed ViewResult - view Index executed in 0.9457ms.
+2021-11-16 15:01:36.797 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 1.1159ms
+2021-11-16 15:01:36.797 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:36.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 1.7712ms
+2021-11-16 15:01:38.229 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Category - -
+2021-11-16 15:01:38.230 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:38.232 +02:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.CategoryController (gStringKustomGuitars.Web).
+2021-11-16 15:01:38.259 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:38.268 +02:00 [INF] Executed ViewResult - view Index executed in 9.565ms.
+2021-11-16 15:01:38.268 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web) in 35.6895ms
+2021-11-16 15:01:38.268 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:38.268 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Category - - - 200 - text/html;+charset=utf-8 38.5255ms
+2021-11-16 15:01:39.501 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:01:39.501 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:39.501 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:01:39.501 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:39.502 +02:00 [INF] Executed ViewResult - view Index executed in 0.4996ms.
+2021-11-16 15:01:39.502 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 0.6504ms
+2021-11-16 15:01:39.502 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:39.502 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 1.4063ms
+2021-11-16 15:01:40.903 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product - -
+2021-11-16 15:01:40.903 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:40.903 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:01:40.916 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:40.929 +02:00 [INF] Executed ViewResult - view Index executed in 13.0993ms.
+2021-11-16 15:01:40.929 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web) in 26.1317ms
+2021-11-16 15:01:40.929 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:40.941 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product - - - 200 - text/html;+charset=utf-8 37.7984ms
+2021-11-16 15:01:41.941 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product/Import - -
+2021-11-16 15:01:41.943 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Import (gStringKustomGuitars.Web)'
+2021-11-16 15:01:41.944 +02:00 [INF] Route matched with {action = "Import", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Import() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:01:41.945 +02:00 [INF] Executing ViewResult, running view Import.
+2021-11-16 15:01:41.967 +02:00 [INF] Executed ViewResult - view Import executed in 23.3536ms.
+2021-11-16 15:01:41.967 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Import (gStringKustomGuitars.Web) in 23.6222ms
+2021-11-16 15:01:41.967 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Import (gStringKustomGuitars.Web)'
+2021-11-16 15:01:41.968 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product/Import - - - 200 - text/html;+charset=utf-8 26.0363ms
+2021-11-16 15:01:44.405 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product - -
+2021-11-16 15:01:44.405 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:44.405 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:01:44.425 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:44.433 +02:00 [INF] Executed ViewResult - view Index executed in 8.4926ms.
+2021-11-16 15:01:44.433 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web) in 27.6578ms
+2021-11-16 15:01:44.433 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:44.444 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product - - - 200 - text/html;+charset=utf-8 38.4627ms
+2021-11-16 15:01:45.934 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:01:45.934 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:45.934 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:01:45.934 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:01:45.934 +02:00 [INF] Executed ViewResult - view Index executed in 0.4953ms.
+2021-11-16 15:01:45.934 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 0.6178ms
+2021-11-16 15:01:45.934 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:01:45.935 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 1.3080ms
+2021-11-16 15:12:58.571 +02:00 [INF] User profile is available. Using 'C:\Users\isdev089\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-16 15:12:59.066 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-16 15:12:59.066 +02:00 [INF] Hosting environment: Development
+2021-11-16 15:12:59.066 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars.Web
+2021-11-16 15:12:59.123 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/ - -
+2021-11-16 15:12:59.222 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:12:59.295 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:12:59.346 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:12:59.611 +02:00 [INF] Executed ViewResult - view Index executed in 268.7338ms.
+2021-11-16 15:12:59.613 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web) in 317.2237ms
+2021-11-16 15:12:59.614 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:12:59.630 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/ - - - 200 - text/html;+charset=utf-8 510.8104ms
+2021-11-16 15:13:01.372 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44329/ application/x-www-form-urlencoded 233
+2021-11-16 15:13:01.373 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:13:01.397 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(gStringKustomGuitars.Web.Models.LoginModel) on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:13:03.751 +02:00 [INF] Executing RedirectResult, redirecting to /Home.
+2021-11-16 15:13:03.752 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web) in 2354.8545ms
+2021-11-16 15:13:03.753 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:13:03.755 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44329/ application/x-www-form-urlencoded 233 - 302 - - 2383.1425ms
+2021-11-16 15:13:03.758 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:13:03.760 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:13:03.761 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:13:03.763 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:13:03.768 +02:00 [INF] Executed ViewResult - view Index executed in 6.3264ms.
+2021-11-16 15:13:03.773 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 11.0973ms
+2021-11-16 15:13:03.773 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:13:03.774 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 15.4001ms
+2021-11-16 15:13:27.391 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product - -
+2021-11-16 15:13:27.396 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:13:27.400 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:13:27.563 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:13:27.642 +02:00 [INF] Executed ViewResult - view Index executed in 80.772ms.
+2021-11-16 15:13:27.644 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web) in 243.2681ms
+2021-11-16 15:13:27.644 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:13:27.661 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product - - - 200 - text/html;+charset=utf-8 270.6728ms
+2021-11-16 15:13:54.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product/Create - -
+2021-11-16 15:13:54.296 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.CreateAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:13:54.308 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateAsync() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:13:54.440 +02:00 [INF] Executing ViewResult, running view Create.
+2021-11-16 15:13:54.517 +02:00 [INF] Executed ViewResult - view Create executed in 78.3259ms.
+2021-11-16 15:13:54.517 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.CreateAsync (gStringKustomGuitars.Web) in 209.5991ms
+2021-11-16 15:13:54.517 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.CreateAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:13:54.518 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product/Create - - - 200 - text/html;+charset=utf-8 226.7260ms
+2021-11-16 15:14:23.726 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44329/Product/Create multipart/form-data;+boundary=----WebKitFormBoundaryBGSOzJyX66BorFK6 67535
+2021-11-16 15:14:23.732 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.CreateAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:14:23.734 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateAsync(gStringKustomGuitars.Web.Models.ProductModel) on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:14:23.838 +02:00 [INF] Executing RedirectResult, redirecting to /Product.
+2021-11-16 15:14:23.838 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.CreateAsync (gStringKustomGuitars.Web) in 103.9208ms
+2021-11-16 15:14:23.838 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.CreateAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:14:23.839 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44329/Product/Create multipart/form-data;+boundary=----WebKitFormBoundaryBGSOzJyX66BorFK6 67535 - 302 - - 112.8139ms
+2021-11-16 15:14:23.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product - -
+2021-11-16 15:14:23.841 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:14:23.841 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:14:23.858 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:14:23.881 +02:00 [INF] Executed ViewResult - view Index executed in 23.6762ms.
+2021-11-16 15:14:23.885 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web) in 43.5909ms
+2021-11-16 15:14:23.885 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:14:23.901 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product - - - 200 - text/html;+charset=utf-8 59.0000ms
+2021-11-16 15:14:29.066 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product/Edit/3 - -
+2021-11-16 15:14:29.066 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Edit (gStringKustomGuitars.Web)'
+2021-11-16 15:14:29.071 +02:00 [INF] Route matched with {action = "Edit", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Int32) on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:14:29.101 +02:00 [INF] Executing ViewResult, running view Edit.
+2021-11-16 15:14:29.127 +02:00 [INF] Executed ViewResult - view Edit executed in 26.11ms.
+2021-11-16 15:14:29.127 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Edit (gStringKustomGuitars.Web) in 55.7417ms
+2021-11-16 15:14:29.127 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Edit (gStringKustomGuitars.Web)'
+2021-11-16 15:14:29.130 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product/Edit/3 - - - 200 - text/html;+charset=utf-8 64.1955ms
+2021-11-16 15:14:31.536 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44329/Product/Edit/3 application/x-www-form-urlencoded 402
+2021-11-16 15:14:31.536 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.EditAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:14:31.539 +02:00 [INF] Route matched with {action = "Edit", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] EditAsync(Int32, gStringKustomGuitars.Web.Models.ProductModel) on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:14:33.531 +02:00 [INF] Executing RedirectResult, redirecting to /Category.
+2021-11-16 15:14:33.531 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.EditAsync (gStringKustomGuitars.Web) in 1991.9969ms
+2021-11-16 15:14:33.531 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.EditAsync (gStringKustomGuitars.Web)'
+2021-11-16 15:14:33.532 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44329/Product/Edit/3 application/x-www-form-urlencoded 402 - 302 - - 1996.0705ms
+2021-11-16 15:14:33.535 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Category - -
+2021-11-16 15:14:33.535 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:14:33.538 +02:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.CategoryController (gStringKustomGuitars.Web).
+2021-11-16 15:14:33.550 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:14:33.562 +02:00 [INF] Executed ViewResult - view Index executed in 12.0007ms.
+2021-11-16 15:14:33.562 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web) in 23.949ms
+2021-11-16 15:14:33.562 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:14:33.562 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Category - - - 200 - text/html;+charset=utf-8 27.2291ms
+2021-11-16 15:42:19.621 +02:00 [INF] User profile is available. Using 'C:\Users\isdev089\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-16 15:42:20.130 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-16 15:42:20.130 +02:00 [INF] Hosting environment: Development
+2021-11-16 15:42:20.131 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars.Web
+2021-11-16 15:42:20.222 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/ - -
+2021-11-16 15:42:20.294 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:42:20.466 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:42:20.517 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:42:20.808 +02:00 [INF] Executed ViewResult - view Index executed in 298.5159ms.
+2021-11-16 15:42:20.810 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web) in 343.9444ms
+2021-11-16 15:42:20.812 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:42:20.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/js/site.js?v=HCbseFJUDDSlKW4P40Kd03cdneQcQKBSLtY6dNFGJGU - -
+2021-11-16 15:42:20.912 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/ - - - 200 - text/html;+charset=utf-8 695.2583ms
+2021-11-16 15:42:20.934 +02:00 [INF] The file /js/site.js was not modified
+2021-11-16 15:42:20.943 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/js/site.js?v=HCbseFJUDDSlKW4P40Kd03cdneQcQKBSLtY6dNFGJGU - - - 304 - application/javascript 35.1693ms
+2021-11-16 15:49:11.703 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Login/Create - -
+2021-11-16 15:49:11.710 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Create (gStringKustomGuitars.Web)'
+2021-11-16 15:49:11.719 +02:00 [INF] Route matched with {action = "Create", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:49:11.726 +02:00 [INF] Executing ViewResult, running view Create.
+2021-11-16 15:49:11.769 +02:00 [INF] Executed ViewResult - view Create executed in 49.7898ms.
+2021-11-16 15:49:11.769 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Create (gStringKustomGuitars.Web) in 50.2298ms
+2021-11-16 15:49:11.769 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Create (gStringKustomGuitars.Web)'
+2021-11-16 15:49:11.770 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Login/Create - - - 200 - text/html;+charset=utf-8 66.7887ms
+2021-11-16 15:56:17.277 +02:00 [INF] User profile is available. Using 'C:\Users\isdev089\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-16 15:56:18.146 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-16 15:56:18.147 +02:00 [INF] Hosting environment: Development
+2021-11-16 15:56:18.147 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars.Web
+2021-11-16 15:56:18.251 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/ - -
+2021-11-16 15:56:18.339 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:56:18.428 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:56:18.469 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:56:18.768 +02:00 [INF] Executed ViewResult - view Index executed in 308.443ms.
+2021-11-16 15:56:18.772 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web) in 343.0296ms
+2021-11-16 15:56:18.773 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:56:18.789 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/ - - - 200 - text/html;+charset=utf-8 544.2647ms
+2021-11-16 15:56:31.598 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44329/ application/x-www-form-urlencoded 233
+2021-11-16 15:56:31.598 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:56:31.623 +02:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(gStringKustomGuitars.Web.Models.LoginModel) on controller gStringKustomGuitars.Web.Controllers.LoginController (gStringKustomGuitars.Web).
+2021-11-16 15:56:33.770 +02:00 [INF] Executing RedirectResult, redirecting to /Home.
+2021-11-16 15:56:33.773 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web) in 2149.7918ms
+2021-11-16 15:56:33.773 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.LoginController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:56:33.776 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44329/ application/x-www-form-urlencoded 233 - 302 - - 2177.8203ms
+2021-11-16 15:56:33.778 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:56:33.780 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:56:33.781 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:56:33.783 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:56:33.794 +02:00 [INF] Executed ViewResult - view Index executed in 11.7467ms.
+2021-11-16 15:56:33.794 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 12.3108ms
+2021-11-16 15:56:33.794 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:56:33.794 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 16.4485ms
+2021-11-16 15:58:31.343 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Category - -
+2021-11-16 15:58:31.349 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:58:31.352 +02:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.CategoryController (gStringKustomGuitars.Web).
+2021-11-16 15:58:31.435 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:58:31.455 +02:00 [INF] Executed ViewResult - view Index executed in 24.4905ms.
+2021-11-16 15:58:31.455 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web) in 102.935ms
+2021-11-16 15:58:31.456 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.CategoryController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:58:31.456 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Category - - - 200 - text/html;+charset=utf-8 112.6163ms
+2021-11-16 15:59:16.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Home - -
+2021-11-16 15:59:16.539 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:59:16.543 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gStringKustomGuitars.Web.Controllers.HomeController (gStringKustomGuitars.Web).
+2021-11-16 15:59:16.543 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:59:16.545 +02:00 [INF] Executed ViewResult - view Index executed in 1.6543ms.
+2021-11-16 15:59:16.545 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web) in 1.9217ms
+2021-11-16 15:59:16.545 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.HomeController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:59:16.545 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Home - - - 200 - text/html;+charset=utf-8 7.0222ms
+2021-11-16 15:59:18.002 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44329/Product - -
+2021-11-16 15:59:18.002 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:59:18.005 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller gStringKustomGuitars.Web.Controllers.ProductController (gStringKustomGuitars.Web).
+2021-11-16 15:59:18.063 +02:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 15:59:18.104 +02:00 [INF] Executed ViewResult - view Index executed in 42.0235ms.
+2021-11-16 15:59:18.105 +02:00 [INF] Executed action gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web) in 99.9189ms
+2021-11-16 15:59:18.105 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Web.Controllers.ProductController.Index (gStringKustomGuitars.Web)'
+2021-11-16 15:59:18.114 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44329/Product - - - 200 - text/html;+charset=utf-8 111.5753ms

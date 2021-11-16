@@ -1,0 +1,17 @@
+﻿@model gStringKustomGuitars.Web.Models.LoginModel
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    @*<img class="mb-2" src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="50" height="40">*@
+    <h1>gStringKustomGuitars.com</h1>
+    <p class="lead">gStringKustomGuitars.com is a web portal for manage eStore products.</p>
+</div>
+
+<li>@Html.ActionLink("Categories", "Index", "Category")</li>
+<li>@Html.ActionLink("Products", "Index", "Product")</li>
+
+

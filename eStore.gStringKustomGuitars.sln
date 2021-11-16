@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gStringKustomGuitars.Api", "gStringKustomGuitars.Api\gStringKustomGuitars.Api.csproj", "{93637567-5CA7-41FC-966C-0CE712228733}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gStringKustomGuitars.Web", "gStringKustomGuitars.Web\gStringKustomGuitars.Web.csproj", "{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93637567-5CA7-41FC-966C-0CE712228733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93637567-5CA7-41FC-966C-0CE712228733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93637567-5CA7-41FC-966C-0CE712228733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93637567-5CA7-41FC-966C-0CE712228733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE2AF2E1-4EF7-4055-8145-97A0D229D402}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+﻿@model gStringKustomGuitars.Web.Models.LoginModel
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Index", "Login", FormMethod.Post, new { @class = "" }))
+{
+<div class="form-signin">
+
+    <img class="mb-4" src="~/images/g-string-guitar-logo.jpg" alt="" width="250" height="150">
+    <h1>gStringKustomGuitars.com</h1>
+    <h4>| eStore Managment Portal</h4>
+    <br/>
+    <div class="form-floating">
+        <label for="floatingInput">Email address</label>
+        <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    </div>
+    <div class="form-floating">
+        <label for="floatingPassword">Password</label>
+        <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    </div>
+
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
+    </div>
+    <button type="submit" class="w-100 btn btn-lg btn-primary"
+            onclick="ga('send', 'event', 'LOGIN', 'Click', 'User Login','1')">
+        Sign In
+    </button>
+    <hr />
+    <p>
+        @Html.ActionLink("Register as a new user", "Create")
+    </p>
+
+</div>
+}
+

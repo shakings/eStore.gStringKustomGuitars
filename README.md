@@ -1,6 +1,6 @@
 # gStringKustomGuitars
 
-We build a highly scalable secured web application to manage a list of products and categories.
+We build an web application to manage a list of products and categories.
 The gStringKustomGuitars portal have been design on the microsoft .NET Core Platfrom. The web application consist of GUI, API, MSSQL 
 Visual Studio 2019 was used to build the application.
 

@@ -34,6 +34,8 @@ The appsettings.json file can be found in the project of the API.
   
   3. Goto the menu click on "Debug" start debugging or press F5.
 
-  ![image](https://user-images.githubusercontent.com/4200022/142021668-e0a50d5f-8eda-4668-8693-693d1a24c581.png)
+ ## gStringKustomGuitar Overview Diagram
+
+ ![image](https://user-images.githubusercontent.com/4200022/142194478-3a03ae4c-6364-4cdc-bf19-a6981899f39c.png)
 
  

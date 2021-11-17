@@ -1,5 +1,5 @@
-﻿using gStringKustomGuitars.Api.Domain.Users.Models.Dtos;
-using gStringKustomGuitars.Api.Domain.Users.Services.Abstractions;
+﻿using gStringKustomGuitars.Services.Domain.Users.Models.Dtos;
+using gStringKustomGuitars.Services.Domain.Users.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 

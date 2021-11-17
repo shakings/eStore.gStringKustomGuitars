@@ -1,7 +1,6 @@
-﻿using gStringKustomGuitars.Api.Domain.Users.Models.Dtos;
-using gStringKustomGuitars.Api.Domain.Users.Services.Abstractions;
+﻿using gStringKustomGuitars.Services.Domain.Users.Models.Dtos;
+using gStringKustomGuitars.Services.Domain.Users.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
 namespace gStringKustomGuitars.Api.Controllers

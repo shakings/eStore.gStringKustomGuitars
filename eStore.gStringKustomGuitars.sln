@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gStringKustomGuitars.Api", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gStringKustomGuitars.Web", "gStringKustomGuitars.Web\gStringKustomGuitars.Web.csproj", "{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gStringKustomGuitars.Services", "gStringKustomGuitars.Services\gStringKustomGuitars.Services.csproj", "{C8FDDED7-2C8B-4EA2-A13B-ED80876C8337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gStringKustomGuitars.Data", "gStringKustomGuitars.Data\gStringKustomGuitars.Data.csproj", "{CDDB352E-F022-42DB-B7CC-A065D17B7B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gStringKustomGuitars.Utils", "gStringKustomGuitars.Utils\gStringKustomGuitars.Utils.csproj", "{BAC560C0-8F54-44EA-9F7B-F77DF00BE745}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4700D8C-9EC9-493E-8B3E-475EA8E4BE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FDDED7-2C8B-4EA2-A13B-ED80876C8337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FDDED7-2C8B-4EA2-A13B-ED80876C8337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FDDED7-2C8B-4EA2-A13B-ED80876C8337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FDDED7-2C8B-4EA2-A13B-ED80876C8337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDB352E-F022-42DB-B7CC-A065D17B7B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDB352E-F022-42DB-B7CC-A065D17B7B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDB352E-F022-42DB-B7CC-A065D17B7B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDB352E-F022-42DB-B7CC-A065D17B7B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC560C0-8F54-44EA-9F7B-F77DF00BE745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC560C0-8F54-44EA-9F7B-F77DF00BE745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC560C0-8F54-44EA-9F7B-F77DF00BE745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC560C0-8F54-44EA-9F7B-F77DF00BE745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

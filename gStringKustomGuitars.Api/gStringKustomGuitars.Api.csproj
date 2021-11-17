@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\**" />
+    <Compile Remove="Domain\**" />
+    <Content Remove="Data\**" />
+    <Content Remove="Domain\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <EmbeddedResource Remove="Domain\**" />
+    <None Remove="Data\**" />
+    <None Remove="Domain\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Flurl" Version="3.0.2" />
@@ -18,9 +29,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Categories\Models\Validators\" />
-    <Folder Include="Domain\Products\Models\Validators\" />
-    <Folder Include="Domain\Users\Models\Validators\" />
+    <ProjectReference Include="..\gStringKustomGuitars.Data\gStringKustomGuitars.Data.csproj" />
+    <ProjectReference Include="..\gStringKustomGuitars.Services\gStringKustomGuitars.Services.csproj" />
+    <ProjectReference Include="..\gStringKustomGuitars.Utils\gStringKustomGuitars.Utils.csproj" />
   </ItemGroup>
 
   <ItemGroup>

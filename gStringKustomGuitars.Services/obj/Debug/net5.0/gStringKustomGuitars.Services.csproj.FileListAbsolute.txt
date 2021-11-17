@@ -1,0 +1,15 @@
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.csproj.AssemblyReference.cache
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.AssemblyInfoInputs.cache
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.AssemblyInfo.cs
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.csproj.CoreCompileInputs.cache
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\bin\Debug\net5.0\gStringKustomGuitars.Services.deps.json
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\bin\Debug\net5.0\gStringKustomGuitars.Services.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\bin\Debug\net5.0\ref\gStringKustomGuitars.Services.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\bin\Debug\net5.0\gStringKustomGuitars.Services.pdb
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\bin\Debug\net5.0\gStringKustomGuitars.Data.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\bin\Debug\net5.0\gStringKustomGuitars.Data.pdb
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.csproj.CopyComplete
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\ref\gStringKustomGuitars.Services.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Services\obj\Debug\net5.0\gStringKustomGuitars.Services.pdb

@@ -1,0 +1,11 @@
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\bin\Debug\net5.0\gStringKustomGuitars.Utils.deps.json
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\bin\Debug\net5.0\gStringKustomGuitars.Utils.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\bin\Debug\net5.0\ref\gStringKustomGuitars.Utils.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\bin\Debug\net5.0\gStringKustomGuitars.Utils.pdb
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.AssemblyInfoInputs.cache
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.AssemblyInfo.cs
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.csproj.CoreCompileInputs.cache
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\ref\gStringKustomGuitars.Utils.dll
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.pdb

@@ -20,7 +20,7 @@ namespace gStringKustomGuitars.Services.Domain.Products.Builders
 
         public ProductBuilder(IQuery<PS_PRODUCTS_Results> query,
                               IExecute execute,
-                              IgStringKustomConnection aptConnection) : base(aptConnection)
+                              IgStringKustomConnection igStringKustomConnection) : base(igStringKustomConnection)
         {
             _query = query;
             _execute = execute;

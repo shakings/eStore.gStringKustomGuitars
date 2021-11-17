@@ -13,7 +13,7 @@ namespace gStringKustomGuitars.Api.Controllers
     
         private readonly ICategoryServices _categoryServices;
 
-        #region construtor
+        #region ctor
 
         public CategoriesController(ICategoryServices categoryServices)
         {          

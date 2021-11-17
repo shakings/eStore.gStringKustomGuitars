@@ -11,7 +11,7 @@ namespace gStringKustomGuitars.Services.Domain.Users.Builders
         private readonly IExecute _execute;
 
         public UserBuilder(IExecute execute,
-                           IgStringKustomConnection aptConnection) : base(aptConnection)
+                           IgStringKustomConnection igStringKustomConnection) : base(igStringKustomConnection)
         {
             _execute = execute;
         }

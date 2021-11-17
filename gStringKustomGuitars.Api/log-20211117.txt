@@ -19,3 +19,692 @@
 2021-11-17 09:42:33.449 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 23.53ms
 2021-11-17 09:42:33.449 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
 2021-11-17 09:42:33.450 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 28.1262ms
+2021-11-17 10:03:29.783 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 10:03:29.807 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 10:03:29.849 +02:00 [INF] Hosting environment: Development
+2021-11-17 10:03:29.850 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 10:03:30.058 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 255.8920ms
+2021-11-17 10:03:30.444 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 10:03:30.673 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 229.2389ms
+2021-11-17 10:03:35.206 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 83
+2021-11-17 10:03:35.232 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 10:03:35.261 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 10:03:35.993 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 10:03:36.011 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 744.246ms
+2021-11-17 10:03:36.012 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 10:03:36.014 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 83 - 200 - application/json;+charset=utf-8 810.8080ms
+2021-11-17 10:04:51.544 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 10:04:51.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 10:04:51.598 +02:00 [INF] Hosting environment: Development
+2021-11-17 10:04:51.599 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 10:04:51.781 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 208.7844ms
+2021-11-17 10:04:52.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 10:04:52.387 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.5881ms
+2021-11-17 10:05:13.228 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/User/insert application/json;+charset=UTF-8 100
+2021-11-17 10:05:13.263 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 10:05:13.299 +02:00 [INF] Route matched with {action = "Insert", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Insert(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPiParametersDto) on controller gStringKustomGuitars.Api.Controllers.UserController (gStringKustomGuitars.Api).
+2021-11-17 10:05:13.866 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Int32'.
+2021-11-17 10:05:13.876 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api) in 572.2342ms
+2021-11-17 10:05:13.877 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 10:05:13.878 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/User/insert application/json;+charset=UTF-8 100 - 200 - application/json;+charset=utf-8 650.0358ms
+2021-11-17 10:36:55.241 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 10:36:55.268 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 10:36:55.295 +02:00 [INF] Hosting environment: Development
+2021-11-17 10:36:55.295 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 10:36:55.509 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 246.7804ms
+2021-11-17 10:36:56.087 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 10:36:56.354 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 266.3496ms
+2021-11-17 10:36:59.684 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 83
+2021-11-17 10:36:59.713 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 10:36:59.742 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 10:37:00.452 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 10:37:00.468 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 720.917ms
+2021-11-17 10:37:00.469 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 10:37:00.471 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 83 - 200 - application/json;+charset=utf-8 786.4043ms
+2021-11-17 10:37:03.309 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 10:37:03.311 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 10:37:03.314 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 10:37:03.336 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 10:37:03.337 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 23.6713ms
+2021-11-17 10:37:03.338 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 10:37:03.338 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 28.3469ms
+2021-11-17 10:37:13.171 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Product/list - -
+2021-11-17 10:37:13.171 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api)'
+2021-11-17 10:37:13.174 +02:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.ProductPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.ProductController (gStringKustomGuitars.Api).
+2021-11-17 10:37:13.187 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.ProductPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 10:37:13.199 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api) in 25.2095ms
+2021-11-17 10:37:13.199 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api)'
+2021-11-17 10:37:13.199 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Product/list - - - 200 - application/json;+charset=utf-8 28.6670ms
+2021-11-17 10:37:14.819 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 10:37:14.820 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 10:37:14.820 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 10:37:14.822 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 10:37:14.823 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 2.2638ms
+2021-11-17 10:37:14.823 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 10:37:14.823 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 3.5342ms
+2021-11-17 11:24:27.102 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 11:24:27.128 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 11:24:27.152 +02:00 [INF] Hosting environment: Development
+2021-11-17 11:24:27.153 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 11:24:27.396 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 272.9849ms
+2021-11-17 11:24:28.215 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 11:24:28.358 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.4278ms
+2021-11-17 11:51:24.285 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 11:51:24.351 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 11:51:24.400 +02:00 [INF] Hosting environment: Development
+2021-11-17 11:51:24.400 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 11:51:24.654 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 309.0541ms
+2021-11-17 11:51:25.891 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 11:51:26.035 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.7286ms
+2021-11-17 11:52:09.024 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 11:52:09.052 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:52:09.082 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 11:52:09.692 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 11:52:09.705 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 618.803ms
+2021-11-17 11:52:09.707 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:52:09.709 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 685.4726ms
+2021-11-17 11:52:24.020 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 11:52:24.022 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:52:24.022 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 11:52:24.031 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 11:52:24.031 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 8.6312ms
+2021-11-17 11:52:24.031 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:52:24.031 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 11.5915ms
+2021-11-17 11:52:45.456 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 11:52:45.485 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 11:52:45.519 +02:00 [INF] Hosting environment: Development
+2021-11-17 11:52:45.520 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 11:52:45.756 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 277.0951ms
+2021-11-17 11:52:46.247 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 11:52:46.541 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.3932ms
+2021-11-17 11:52:49.470 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 11:52:49.501 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:52:49.537 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 11:52:50.187 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 11:52:50.201 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 658.5682ms
+2021-11-17 11:52:50.203 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:52:50.205 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 734.3279ms
+2021-11-17 11:53:53.029 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 11:53:53.059 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 11:53:53.082 +02:00 [INF] Hosting environment: Development
+2021-11-17 11:53:53.083 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 11:53:53.294 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 239.8502ms
+2021-11-17 11:53:54.187 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 11:53:54.368 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.4152ms
+2021-11-17 11:53:57.416 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 11:53:57.442 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:53:57.489 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 11:53:58.139 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 11:53:58.153 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 659.4957ms
+2021-11-17 11:53:58.154 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:53:58.156 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 740.4374ms
+2021-11-17 11:55:34.317 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 11:55:34.350 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 11:55:34.380 +02:00 [INF] Hosting environment: Development
+2021-11-17 11:55:34.382 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 11:55:34.611 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 271.4699ms
+2021-11-17 11:55:35.542 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 11:55:35.749 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.2935ms
+2021-11-17 11:55:38.647 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 11:55:38.675 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:55:38.708 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 11:55:39.345 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 11:55:39.358 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 646.0199ms
+2021-11-17 11:55:39.360 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:55:39.362 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 714.4390ms
+2021-11-17 11:58:15.014 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 11:58:15.043 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 11:58:15.069 +02:00 [INF] Hosting environment: Development
+2021-11-17 11:58:15.070 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 11:58:15.307 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 269.1398ms
+2021-11-17 11:58:16.138 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 11:58:16.329 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.2276ms
+2021-11-17 11:58:19.259 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 11:58:19.293 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:58:19.322 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 11:58:19.966 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 11:58:19.981 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 653.872ms
+2021-11-17 11:58:19.983 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:58:19.985 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 725.5362ms
+2021-11-17 11:58:27.334 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/insert application/json;+charset=UTF-8 115
+2021-11-17 11:58:27.338 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/insert application/json;+charset=UTF-8 115 - 404 - - 3.0281ms
+2021-11-17 11:59:50.241 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 11:59:50.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 11:59:50.281 +02:00 [INF] Hosting environment: Development
+2021-11-17 11:59:50.281 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 11:59:50.456 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 194.9952ms
+2021-11-17 11:59:51.457 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 11:59:51.665 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 207.9981ms
+2021-11-17 11:59:54.684 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 11:59:54.713 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:59:54.745 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 11:59:55.365 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 11:59:55.381 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 631.7007ms
+2021-11-17 11:59:55.383 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 11:59:55.385 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 700.9176ms
+2021-11-17 12:01:02.013 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:01:02.035 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:01:02.055 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:01:02.055 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:01:02.256 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 223.4983ms
+2021-11-17 12:01:03.467 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:01:03.618 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.8485ms
+2021-11-17 12:01:06.195 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:01:06.224 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:01:06.256 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:01:06.941 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:01:06.955 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 694.1161ms
+2021-11-17 12:01:06.957 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:01:06.959 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 763.9420ms
+2021-11-17 12:01:09.776 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:01:09.779 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 404 - - 3.1882ms
+2021-11-17 12:01:33.588 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:01:33.608 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:01:33.624 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:01:33.624 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:01:33.771 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 166.3080ms
+2021-11-17 12:01:34.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:01:34.643 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 364.7440ms
+2021-11-17 12:01:59.816 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44347/api/Audit/insert application/json 56
+2021-11-17 12:01:59.853 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:01:59.889 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:01:59.896 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 3.0363ms
+2021-11-17 12:01:59.898 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:01:59.925 +02:00 [ERR] Unable to resolve service for type 'gStringKustomGuitars.Services.Domain.Audit.Services.Abstractions.IAuditServices' while attempting to activate 'gStringKustomGuitars.Api.Controllers.AuditController'.
+System.InvalidOperationException: Unable to resolve service for type 'gStringKustomGuitars.Services.Domain.Audit.Services.Abstractions.IAuditServices' while attempting to activate 'gStringKustomGuitars.Api.Controllers.AuditController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at gStringKustomGuitars.Utils.Middleware.ResponseHandeling.ErrorWrappingMiddleware.Invoke(HttpContext context) in C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\Middleware\ResponseHandeling\ErrorWrappingMiddleware.cs:line 23
+2021-11-17 12:01:59.981 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44347/api/Audit/insert application/json 56 - 500 - - 165.3375ms
+2021-11-17 12:02:57.710 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:02:57.748 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:02:57.765 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:02:57.766 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:02:57.985 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 245.8674ms
+2021-11-17 12:02:58.904 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:02:59.159 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 255.0178ms
+2021-11-17 12:03:01.941 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:03:01.969 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:03:02.002 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:03:02.620 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:03:02.634 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 627.3709ms
+2021-11-17 12:03:02.635 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:03:02.637 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 695.1181ms
+2021-11-17 12:03:05.602 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:03:05.607 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 404 - - 5.1162ms
+2021-11-17 12:03:25.708 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:03:25.709 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:03:25.709 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:03:25.719 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:03:25.720 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 10.6843ms
+2021-11-17 12:03:25.720 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:03:25.721 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 12.5831ms
+2021-11-17 12:06:03.626 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:06:03.654 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:06:03.669 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:06:03.670 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:06:03.856 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 207.2037ms
+2021-11-17 12:06:04.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:06:04.474 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.2548ms
+2021-11-17 12:06:07.754 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:06:07.784 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:06:07.830 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:06:08.470 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:06:08.485 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 648.3049ms
+2021-11-17 12:06:08.486 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:06:08.488 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 733.7992ms
+2021-11-17 12:06:14.099 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:06:14.104 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 404 - - 6.2239ms
+2021-11-17 12:07:07.495 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:07:07.520 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:07:07.540 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:07:07.541 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:07:07.735 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 219.6747ms
+2021-11-17 12:07:08.537 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:07:08.751 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 214.9751ms
+2021-11-17 12:07:11.191 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:07:11.223 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:07:11.256 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:07:11.920 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:07:11.937 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 676.8214ms
+2021-11-17 12:07:11.939 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:07:11.940 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 749.1461ms
+2021-11-17 12:07:14.766 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:07:14.769 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 404 - - 2.9072ms
+2021-11-17 12:17:09.800 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:17:09.821 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:17:09.835 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:17:09.836 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:17:09.987 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 169.7254ms
+2021-11-17 12:17:10.426 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:17:10.676 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.7599ms
+2021-11-17 12:17:14.244 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:17:14.275 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:17:14.304 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:17:14.974 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:17:14.993 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 682.6386ms
+2021-11-17 12:17:14.995 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:17:14.998 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 753.5703ms
+2021-11-17 12:17:38.762 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:17:38.766 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 404 - - 4.1540ms
+2021-11-17 12:20:50.397 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:20:50.420 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:20:50.447 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:20:50.448 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:20:50.634 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 218.6542ms
+2021-11-17 12:20:51.331 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:20:51.515 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.0326ms
+2021-11-17 12:20:55.743 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:20:55.772 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:20:55.803 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:20:56.512 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:20:56.530 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 721.9563ms
+2021-11-17 12:20:56.531 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:20:56.533 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 790.0413ms
+2021-11-17 12:21:15.194 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:21:15.198 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 404 - - 3.9944ms
+2021-11-17 12:21:58.357 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:21:58.383 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:21:58.403 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:21:58.403 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:21:58.595 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 216.2283ms
+2021-11-17 12:22:03.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:22:03.242 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.3981ms
+2021-11-17 12:22:16.402 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44347/api/Audit/insert application/json 67
+2021-11-17 12:22:16.432 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:22:16.465 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:22:16.687 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-11-17 12:22:16.706 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 235.0507ms
+2021-11-17 12:22:16.707 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:22:16.708 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44347/api/Audit/insert application/json 67 - 400 - application/problem+json;+charset=utf-8 305.9004ms
+2021-11-17 12:22:28.338 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44347/api/Audit/insert application/json 56
+2021-11-17 12:22:28.339 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:22:28.339 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:22:32.227 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:22:32.233 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 3892.9198ms
+2021-11-17 12:22:32.233 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:22:32.234 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44347/api/Audit/insert application/json 56 - 200 - application/json;+charset=utf-8 3896.1096ms
+2021-11-17 12:22:41.138 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:22:41.138 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:22:41.141 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:22:41.200 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:22:41.202 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 60.9876ms
+2021-11-17 12:22:41.202 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:22:41.202 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 64.5512ms
+2021-11-17 12:22:49.808 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:22:49.810 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 404 - - 1.6115ms
+2021-11-17 12:24:09.254 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:24:09.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:24:09.305 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:24:09.306 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:24:09.539 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 264.5152ms
+2021-11-17 12:24:10.053 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:24:10.253 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 199.6588ms
+2021-11-17 12:24:14.327 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:24:14.361 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:24:14.397 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:24:15.171 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:24:15.188 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 785.7756ms
+2021-11-17 12:24:15.189 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:24:15.191 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 864.1757ms
+2021-11-17 12:24:18.401 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:24:18.407 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:24:18.411 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:24:20.645 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:24:20.647 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 2234.8263ms
+2021-11-17 12:24:20.647 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:24:20.647 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 2245.8571ms
+2021-11-17 12:25:15.764 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:25:15.792 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:25:15.826 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:25:15.827 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:25:16.073 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 285.6463ms
+2021-11-17 12:25:16.534 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:25:16.841 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 306.2869ms
+2021-11-17 12:25:20.776 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:25:20.809 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:25:20.842 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:25:21.504 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:25:21.521 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 674.3203ms
+2021-11-17 12:25:21.523 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:25:21.525 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 748.1856ms
+2021-11-17 12:25:29.226 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:25:29.228 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:25:29.238 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:26:14.240 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:26:14.241 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 45002.4586ms
+2021-11-17 12:26:14.241 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:26:17.153 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 47926.0793ms
+2021-11-17 12:26:35.740 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:26:35.776 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:26:35.817 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:26:35.818 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:26:36.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 295.5350ms
+2021-11-17 12:26:37.056 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:26:37.247 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.9379ms
+2021-11-17 12:27:41.435 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:27:41.463 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:27:41.488 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:27:41.488 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:27:41.743 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 285.2689ms
+2021-11-17 12:27:43.254 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:27:43.376 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.2074ms
+2021-11-17 12:27:45.553 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:27:45.592 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:27:45.628 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:27:46.222 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:27:46.236 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 603.7583ms
+2021-11-17 12:27:46.237 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:27:46.239 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 685.5637ms
+2021-11-17 12:27:51.361 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:27:51.363 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:27:51.373 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:27:53.354 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:27:53.355 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 1981.8783ms
+2021-11-17 12:27:53.355 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:27:53.355 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 1994.5697ms
+2021-11-17 12:28:07.404 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:28:07.404 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:28:07.404 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:28:07.409 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:28:07.410 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 5.339ms
+2021-11-17 12:28:07.410 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:28:07.411 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 6.9856ms
+2021-11-17 12:28:09.757 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:28:09.757 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:28:09.757 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:28:09.760 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:28:09.760 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 3.0704ms
+2021-11-17 12:28:09.761 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:28:09.761 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 3.8001ms
+2021-11-17 12:29:18.535 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:29:18.570 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:29:18.591 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:29:18.591 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:29:18.968 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 407.3612ms
+2021-11-17 12:29:20.337 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:29:20.540 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 202.9166ms
+2021-11-17 12:29:23.044 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:29:23.073 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:29:23.114 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:29:23.809 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:29:23.832 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 708.5318ms
+2021-11-17 12:29:23.833 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:29:23.835 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 790.9536ms
+2021-11-17 12:29:26.550 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:29:26.552 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:29:26.555 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:29:26.581 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:29:26.582 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 27.3725ms
+2021-11-17 12:29:26.582 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:29:26.583 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 32.4585ms
+2021-11-17 12:46:10.401 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:46:10.427 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:46:10.427 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger - -
+2021-11-17 12:46:10.463 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:46:10.464 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:46:10.541 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:46:10.543 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger - - - 301 - - 122.3902ms
+2021-11-17 12:46:10.682 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 262.6614ms
+2021-11-17 12:46:10.687 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 146.4069ms
+2021-11-17 12:46:11.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:46:11.319 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.8756ms
+2021-11-17 12:46:11.696 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/favicon-32x32.png - -
+2021-11-17 12:46:11.727 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-11-17 12:46:11.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/favicon-32x32.png - - - 200 628 image/png 31.2790ms
+2021-11-17 12:46:29.208 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/User/insert application/json;+charset=UTF-8 112
+2021-11-17 12:46:29.234 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:46:29.263 +02:00 [INF] Route matched with {action = "Insert", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Insert(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPiParametersDto) on controller gStringKustomGuitars.Api.Controllers.UserController (gStringKustomGuitars.Api).
+2021-11-17 12:46:29.881 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:46:29.893 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api) in 624.0061ms
+2021-11-17 12:46:29.895 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:46:29.896 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/User/insert application/json;+charset=UTF-8 112 - 200 - application/json;+charset=utf-8 688.0750ms
+2021-11-17 12:46:29.909 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 89
+2021-11-17 12:46:29.911 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:46:29.914 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:46:29.934 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:46:29.935 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 20.4574ms
+2021-11-17 12:46:29.935 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:46:29.935 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 89 - 200 - application/json;+charset=utf-8 25.8169ms
+2021-11-17 12:49:11.158 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:49:11.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:49:11.222 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:49:11.223 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:49:11.527 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 343.8414ms
+2021-11-17 12:49:11.864 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:49:12.020 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.9387ms
+2021-11-17 12:49:40.079 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44347/Login/auth application/json 56
+2021-11-17 12:49:40.142 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:49:40.207 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:49:41.332 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:49:41.356 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 1140.7695ms
+2021-11-17 12:49:41.360 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:49:41.363 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44347/Login/auth application/json 56 - 200 - application/json;+charset=utf-8 1288.6498ms
+2021-11-17 12:50:06.526 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:50:06.528 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:50:06.528 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:50:06.546 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:50:06.547 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 18.7158ms
+2021-11-17 12:50:06.547 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:50:06.547 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 20.5455ms
+2021-11-17 12:50:06.602 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:50:06.603 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:50:06.606 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:50:06.631 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:50:06.631 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 25.4828ms
+2021-11-17 12:50:06.631 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:50:06.632 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 29.2741ms
+2021-11-17 12:50:39.529 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 12:50:39.537 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:50:39.552 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:50:39.612 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 12:50:39.616 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 63.3712ms
+2021-11-17 12:50:39.617 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:50:39.618 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 89.1397ms
+2021-11-17 12:51:23.351 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Categories/insert application/json;+charset=UTF-8 80
+2021-11-17 12:51:23.354 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:51:23.361 +02:00 [INF] Route matched with {action = "Insert", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:51:23.373 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:51:23.373 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Insert (gStringKustomGuitars.Api) in 12.256ms
+2021-11-17 12:51:23.373 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:51:23.378 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Categories/insert application/json;+charset=UTF-8 80 - 200 - application/json;+charset=utf-8 26.5090ms
+2021-11-17 12:51:23.383 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 92
+2021-11-17 12:51:23.387 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:51:23.387 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:51:23.390 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:51:23.391 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 3.4101ms
+2021-11-17 12:51:23.391 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:51:23.391 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 92 - 200 - application/json;+charset=utf-8 8.7152ms
+2021-11-17 12:51:23.404 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 12:51:23.404 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:51:23.405 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:51:23.413 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 12:51:23.414 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 9.0692ms
+2021-11-17 12:51:23.414 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:51:23.415 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 10.4286ms
+2021-11-17 12:54:53.323 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:54:53.360 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:54:53.390 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:54:53.391 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:54:53.609 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 258.7044ms
+2021-11-17 12:54:54.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:54:54.751 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.1433ms
+2021-11-17 12:55:03.925 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 12:55:03.965 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:55:03.997 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 12:55:04.681 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 12:55:04.696 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 693.6ms
+2021-11-17 12:55:04.697 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 12:55:04.699 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 773.8347ms
+2021-11-17 12:55:04.755 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 12:55:04.757 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:04.761 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:55:04.795 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:55:04.797 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 34.5617ms
+2021-11-17 12:55:04.797 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:04.802 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 47.4836ms
+2021-11-17 12:55:06.743 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 12:55:06.744 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:55:06.747 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:55:06.771 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 12:55:06.774 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 27.1884ms
+2021-11-17 12:55:06.774 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:55:06.774 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 31.0199ms
+2021-11-17 12:55:23.639 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Categories/insert application/json;+charset=UTF-8 60
+2021-11-17 12:55:23.640 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:23.643 +02:00 [INF] Route matched with {action = "Insert", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:55:23.655 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:55:23.655 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Insert (gStringKustomGuitars.Api) in 11.8458ms
+2021-11-17 12:55:23.655 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:23.655 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Categories/insert application/json;+charset=UTF-8 60 - 200 - application/json;+charset=utf-8 16.0685ms
+2021-11-17 12:55:23.657 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 99
+2021-11-17 12:55:23.657 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:23.657 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:55:23.660 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:55:23.661 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 3.5565ms
+2021-11-17 12:55:23.661 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:23.661 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 99 - 200 - application/json;+charset=utf-8 4.1609ms
+2021-11-17 12:55:23.668 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 12:55:23.668 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:55:23.668 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:55:23.674 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 12:55:23.674 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 5.5917ms
+2021-11-17 12:55:23.674 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:55:23.674 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 6.1911ms
+2021-11-17 12:55:40.869 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/listBy?id=4 - -
+2021-11-17 12:55:40.870 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.GetById (gStringKustomGuitars.Api)'
+2021-11-17 12:55:40.872 +02:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto] GetById(Int32) on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:55:40.880 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto'.
+2021-11-17 12:55:40.881 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.GetById (gStringKustomGuitars.Api) in 8.3613ms
+2021-11-17 12:55:40.881 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.GetById (gStringKustomGuitars.Api)'
+2021-11-17 12:55:40.881 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/listBy?id=4 - - - 200 - application/json;+charset=utf-8 11.6062ms
+2021-11-17 12:55:50.976 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44347/Categories/update application/json;+charset=UTF-8 70
+2021-11-17 12:55:50.977 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Update (gStringKustomGuitars.Api)'
+2021-11-17 12:55:50.984 +02:00 [INF] Route matched with {action = "Update", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPuParamaterDto) on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:55:51.034 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:55:51.034 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Update (gStringKustomGuitars.Api) in 50.2884ms
+2021-11-17 12:55:51.034 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Update (gStringKustomGuitars.Api)'
+2021-11-17 12:55:51.035 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44347/Categories/update application/json;+charset=UTF-8 70 - 200 - application/json;+charset=utf-8 58.6441ms
+2021-11-17 12:55:51.042 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 110
+2021-11-17 12:55:51.042 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:51.042 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:55:51.047 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:55:51.047 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 4.5428ms
+2021-11-17 12:55:51.047 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:55:51.047 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 110 - 200 - application/json;+charset=utf-8 5.2746ms
+2021-11-17 12:55:51.055 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 12:55:51.055 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:55:51.055 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 12:55:51.058 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 12:55:51.058 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 3.2507ms
+2021-11-17 12:55:51.058 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 12:55:51.059 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 4.1037ms
+2021-11-17 12:57:46.476 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 12:57:46.509 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 12:57:46.541 +02:00 [INF] Hosting environment: Development
+2021-11-17 12:57:46.542 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 12:57:46.796 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 284.3731ms
+2021-11-17 12:57:47.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 12:57:47.569 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.9952ms
+2021-11-17 12:58:13.623 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/User/insert application/json;+charset=UTF-8 104
+2021-11-17 12:58:13.667 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:58:13.715 +02:00 [INF] Route matched with {action = "Insert", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Insert(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPiParametersDto) on controller gStringKustomGuitars.Api.Controllers.UserController (gStringKustomGuitars.Api).
+2021-11-17 12:58:14.452 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:58:14.491 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api) in 764.7944ms
+2021-11-17 12:58:14.494 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.UserController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:58:14.497 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/User/insert application/json;+charset=UTF-8 104 - 200 - application/json;+charset=utf-8 873.8228ms
+2021-11-17 12:58:14.520 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 101
+2021-11-17 12:58:14.523 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:58:14.532 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 12:58:14.569 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 12:58:14.569 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 37.2275ms
+2021-11-17 12:58:14.570 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 12:58:14.570 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 101 - 200 - application/json;+charset=utf-8 49.9616ms
+2021-11-17 13:02:13.484 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 13:02:13.511 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 13:02:13.547 +02:00 [INF] Hosting environment: Development
+2021-11-17 13:02:13.548 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 13:02:13.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 273.1040ms
+2021-11-17 13:02:14.222 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 13:02:14.506 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 284.4972ms
+2021-11-17 13:02:28.797 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 13:02:28.834 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 13:02:28.871 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 13:02:29.712 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 13:02:29.728 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 851.6329ms
+2021-11-17 13:02:29.731 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 13:02:29.733 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 935.5949ms
+2021-11-17 13:02:29.797 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 13:02:29.799 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:02:29.804 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 13:02:29.841 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 13:02:29.842 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 37.265ms
+2021-11-17 13:02:29.842 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:02:29.842 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 45.0956ms
+2021-11-17 13:02:36.632 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Product/list - -
+2021-11-17 13:02:36.634 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api)'
+2021-11-17 13:02:36.639 +02:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.ProductPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.ProductController (gStringKustomGuitars.Api).
+2021-11-17 13:02:36.692 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.ProductPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 13:02:36.706 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api) in 67.2985ms
+2021-11-17 13:02:36.706 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api)'
+2021-11-17 13:02:36.707 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Product/list - - - 200 - application/json;+charset=utf-8 74.8403ms
+2021-11-17 13:02:45.205 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Categories/list - -
+2021-11-17 13:02:45.205 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 13:02:45.210 +02:00 [INF] Route matched with {action = "Get", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.CategoriesController (gStringKustomGuitars.Api).
+2021-11-17 13:02:45.226 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.CategoryPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 13:02:45.228 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api) in 18.085ms
+2021-11-17 13:02:45.228 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.CategoriesController.Get (gStringKustomGuitars.Api)'
+2021-11-17 13:02:45.233 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Categories/list - - - 200 - application/json;+charset=utf-8 27.8557ms
+2021-11-17 13:03:12.709 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Product/insert application/json;+charset=UTF-8 24466
+2021-11-17 13:03:12.713 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:03:12.715 +02:00 [INF] Route matched with {action = "Insert", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.ProductPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.ProductController (gStringKustomGuitars.Api).
+2021-11-17 13:03:12.750 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 13:03:12.750 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.ProductController.Insert (gStringKustomGuitars.Api) in 34.7662ms
+2021-11-17 13:03:12.750 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:03:12.750 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Product/insert application/json;+charset=UTF-8 24466 - 200 - application/json;+charset=utf-8 41.5282ms
+2021-11-17 13:03:12.751 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 108
+2021-11-17 13:03:12.752 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:03:12.752 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 13:03:12.755 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 13:03:12.755 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 3.1765ms
+2021-11-17 13:03:12.755 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:03:12.756 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 108 - 200 - application/json;+charset=utf-8 4.1719ms
+2021-11-17 13:03:12.764 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44347/Product/list - -
+2021-11-17 13:03:12.764 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api)'
+2021-11-17 13:03:12.765 +02:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.ProductPsResultDto]] Get() on controller gStringKustomGuitars.Api.Controllers.ProductController (gStringKustomGuitars.Api).
+2021-11-17 13:03:12.773 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[gStringKustomGuitars.Services.Domain.Categories.Models.Dtos.ProductPsResultDto, gStringKustomGuitars.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-17 13:03:12.774 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api) in 9.3386ms
+2021-11-17 13:03:12.775 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.ProductController.Get (gStringKustomGuitars.Api)'
+2021-11-17 13:03:12.778 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44347/Product/list - - - 200 - application/json;+charset=utf-8 13.4622ms
+2021-11-17 13:07:04.254 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-17 13:07:04.285 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/index.html - -
+2021-11-17 13:07:04.313 +02:00 [INF] Hosting environment: Development
+2021-11-17 13:07:04.313 +02:00 [INF] Content root path: C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Api
+2021-11-17 13:07:04.641 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/index.html - - - 200 - text/html;charset=utf-8 362.3819ms
+2021-11-17 13:07:06.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - -
+2021-11-17 13:07:06.964 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44347/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.0606ms
+2021-11-17 13:07:10.756 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90
+2021-11-17 13:07:10.789 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 13:07:10.820 +02:00 [INF] Route matched with {action = "Auth", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto] Auth(gStringKustomGuitars.Services.Domain.Users.Models.Dtos.LoginPsParametersDto) on controller gStringKustomGuitars.Api.Controllers.LoginController (gStringKustomGuitars.Api).
+2021-11-17 13:07:11.578 +02:00 [INF] Executing ObjectResult, writing value of type 'gStringKustomGuitars.Services.Domain.Users.Models.Dtos.UserPsResultsDto'.
+2021-11-17 13:07:11.593 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api) in 766.9497ms
+2021-11-17 13:07:11.594 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.LoginController.Auth (gStringKustomGuitars.Api)'
+2021-11-17 13:07:11.596 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Login/auth application/json;+charset=UTF-8 90 - 200 - application/json;+charset=utf-8 840.5569ms
+2021-11-17 13:07:11.665 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115
+2021-11-17 13:07:11.666 +02:00 [INF] Executing endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:07:11.670 +02:00 [INF] Route matched with {action = "Insert", controller = "Audit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Insert(gStringKustomGuitars.Services.Domain.Audit.Models.Dtos.AuditPiParamaterDto) on controller gStringKustomGuitars.Api.Controllers.AuditController (gStringKustomGuitars.Api).
+2021-11-17 13:07:11.705 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2021-11-17 13:07:11.706 +02:00 [INF] Executed action gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api) in 36.0926ms
+2021-11-17 13:07:11.707 +02:00 [INF] Executed endpoint 'gStringKustomGuitars.Api.Controllers.AuditController.Insert (gStringKustomGuitars.Api)'
+2021-11-17 13:07:11.707 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44347/Audit/insert application/json;+charset=UTF-8 115 - 200 - application/json;+charset=utf-8 42.0574ms

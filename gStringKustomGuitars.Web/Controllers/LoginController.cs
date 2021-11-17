@@ -5,6 +5,7 @@ using gStringKustomGuitars.Web.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using System;
 using System.Threading.Tasks;
 
 namespace gStringKustomGuitars.Web.Controllers
@@ -13,22 +14,24 @@ namespace gStringKustomGuitars.Web.Controllers
     {
         #region private variables
 
-        private string _usrApiEndpoint;
-        private string _logApiEndpoint;
+        private string _apiBaseUrl;
+        private string _apiControllerName;
+        private string _apiUri;
 
         #endregion
 
-        #region constructor
+        #region ctor
 
         public LoginController(IConfiguration configuration) : base(configuration)
         {
-            _logApiEndpoint = this.ApiBaseUrl + "/Login/";
-            _usrApiEndpoint = this.ApiBaseUrl + "/User/";
+            _apiBaseUrl = this.ApiBaseUrl;
+            _apiControllerName = "/Login/";
+            _apiUri = string.Format("{0}{1}", _apiBaseUrl, _apiControllerName);
         }
 
         #endregion
 
-        #region controller endpoint
+        #region endpoint
 
         public IActionResult Index()
         {
@@ -38,44 +41,33 @@ namespace gStringKustomGuitars.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(LoginModel loginModel)
         {
-            var loginSession = await _logApiEndpoint
+            var loginSession = await _apiUri
               .AppendPathSegment("auth")
               .PostJsonAsync(loginModel)
               .ReceiveJson<LoginModel>();
 
             if (loginSession != null)
-                return RedirectToAction("Index", "Home");
-
-            return View();
-        }
-
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> CreateAsync(IFormCollection collection)
-        {
-            if (ModelState.IsValid)
             {
-                LoginModel login = new()
-                {
-                    name = collection["name"],
-                    surname = collection["surname"],
-                    email = collection["email"],
-                    password = collection["password"]
-                };
+                HttpContext.Session.SetString("_USER_SESSION_ID", loginSession.id.ToString());
+              
+                await AuditTraceAsync(loginSession.id,
+                    nameof(LoginController),
+                    string.Format("User :{0} have succesfully logged in.",
+                    loginSession.email));
+               
+                return RedirectToAction("Index", "Home");
+            }
+            else {
 
-                await _usrApiEndpoint
-                   .AppendPathSegment("insert")
-                   .PostJsonAsync(login);
+                await AuditTraceAsync(loginSession.id,
+                    nameof(LoginController),
+                    string.Format("User :{0} have NOT succesfully logged in.",
+                    loginSession.email));
             }
 
-            return RedirectToAction("Index", "Login");
-
+            return View();
         }
+       
 
         #endregion
     }

@@ -4,6 +4,8 @@ namespace gStringKustomGuitars.Web.Models
 {
     public class LoginModel
     {
+        public int id { get; set; }
+
         [Display(Name = "Name")]
         [Required(ErrorMessage = "Field can't be empty")]
         public string name { get; set; }

@@ -1,25 +1,25 @@
 ﻿using gStringKustomGuitars.Web.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace gStringKustomGuitars.Web.Controllers
 {
     public class HomeController : Controller
     {
-        #region constructor
+        #region ctor
 
-        public HomeController()
-        {
-          
-        }
+        public HomeController() { }
 
         #endregion
 
-        #region controller endpoints
+        #region endpoints
 
         public IActionResult Index()
         {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("_USER_SESSION_ID")))
+              return RedirectToAction("Index", "Login");
+                       
             return View();
         }
 

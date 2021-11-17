@@ -11,7 +11,7 @@ namespace gStringKustomGuitars.Services.Domain.Users.Builders
         private readonly IQuery<PS_LOGIN_Results> _query;
 
         public LoginBuilder(IQuery<PS_LOGIN_Results> query,
-                            IgStringKustomConnection aptConnection) : base(aptConnection)
+                            IgStringKustomConnection igStringKustomConnection) : base(igStringKustomConnection)
         {
             _query = query;
         }

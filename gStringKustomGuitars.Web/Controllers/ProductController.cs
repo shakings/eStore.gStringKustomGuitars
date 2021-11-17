@@ -18,26 +18,31 @@ namespace gStringKustomGuitars.Web.Controllers
     {
         #region private variables
 
-        private string _prdApiEnpoint;
-        private string _catApiEndpoint;
+        private string _apiBaseUrl;
+        private string _apiControllerName;
+        private string _apiUri;
 
         #endregion
 
-        #region constructor
+        #region ctor
 
         public ProductController(IConfiguration configuration) : base(configuration)
         {
-            _prdApiEnpoint = ApiBaseUrl + "/Product/";
-            _catApiEndpoint = ApiBaseUrl + "/Categories/";
+            _apiBaseUrl = this.ApiBaseUrl;
+            _apiControllerName = "/Product/";
+            _apiUri = string.Format("{0}{1}", _apiBaseUrl, _apiControllerName);
         }
 
         #endregion
 
-        #region controller endpoints
+        #region endpoints
 
         public async Task<IActionResult> Index()
         {
-            var product = await _prdApiEnpoint
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("_USER_SESSION_ID")))
+                return RedirectToAction("Index", "Login");
+
+            var product = await _apiUri
               .AppendPathSegment("list")
               .GetJsonAsync<IEnumerable<ProductModel>>();
 
@@ -45,23 +50,15 @@ namespace gStringKustomGuitars.Web.Controllers
         }
 
         public async Task<ActionResult> CreateAsync()
-        {
-            var categoriesModels = await _catApiEndpoint
+        {            
+            _apiControllerName = "/Categories/";
+            _apiUri = string.Format("{0}{1}", _apiBaseUrl, _apiControllerName);
+           
+            var categoriesModels = await _apiUri
               .AppendPathSegment("list")
-              .GetJsonAsync<IEnumerable<CategoryModel>>();           
+              .GetJsonAsync<IEnumerable<CategoryModel>>();
 
-            List<SelectListItem> categories = new();
-            foreach ((CategoryModel item, SelectListItem selectListItem) in 
-                from item in categoriesModels.Where(cat => cat.isactive == true)
-                let selectListItem = new SelectListItem()
-                select (item, selectListItem))
-            {
-                selectListItem.Value = item.id.ToString();
-                selectListItem.Text = item.name;
-                categories.Add(selectListItem);
-            }
-
-            ViewBag.CategoriesLookup = categories;
+            CategorySelectListItem(categoriesModels);
 
             return View();
         }
@@ -85,7 +82,7 @@ namespace gStringKustomGuitars.Web.Controllers
                 product.code = string.Format("{0:yyyyMM}-{1}", DateTime.Now, number);
                 product.image = Convert.ToBase64String(bytes, 0, bytes.Length);
 
-                var result = await _prdApiEnpoint
+                var result = await _apiUri
                    .AppendPathSegment("insert")
                    .PostJsonAsync(new
                    {
@@ -99,35 +96,31 @@ namespace gStringKustomGuitars.Web.Controllers
                    });
             }
 
+            await AuditTraceAsync(Convert.ToInt32(HttpContext.Session.GetString("_USER_SESSION_ID")),
+                nameof(ProductController), string.Format("product {0} have been created.", product.name));
+
             return RedirectToAction("Index", "Product");
 
         }
 
         public async Task<IActionResult> Edit(int id)
         {
-            var categoriesModels = await _catApiEndpoint
+            _apiControllerName = "/Categories/";
+            _apiUri = string.Format("{0}{1}", _apiBaseUrl, _apiControllerName);
+          
+            var categoriesModels = await _apiUri
                .AppendPathSegment("list")
                .GetJsonAsync<IEnumerable<CategoryModel>>();
 
-            List<SelectListItem> categories = new();
-            foreach ((CategoryModel item, SelectListItem selectListItem) in
-                from item in categoriesModels.Where(cat => cat.isactive == true)
-                let selectListItem = new SelectListItem()
-                select (item, selectListItem))
-            {
-                selectListItem.Value = item.id.ToString();
-                selectListItem.Text = item.name;
-                categories.Add(selectListItem);
-            }
+            var categorySelectListItem 
+                = CategorySelectListItem(categoriesModels);
 
-            ViewBag.CategoriesLookup = categories;
+            var category = await _apiUri
+                 .AppendPathSegment("listBy")
+                 .SetQueryParam("id", value: id)
+                 .GetJsonAsync<ProductModel>();
 
-            var category = await _prdApiEnpoint
-                .AppendPathSegment("listBy")
-               .SetQueryParam("id", value: id)
-               .GetJsonAsync<ProductModel>();
-
-            categories.FirstOrDefault(cat => cat.Value
+            categorySelectListItem.FirstOrDefault(cat => cat.Value
                == category.categoryId.ToString()).Selected = true;
 
             return View(category);
@@ -139,10 +132,13 @@ namespace gStringKustomGuitars.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _prdApiEnpoint
+                await _apiUri
                   .AppendPathSegment("update")
                   .PutJsonAsync(product);
 
+                await AuditTraceAsync(Convert.ToInt32(HttpContext.Session.GetString("_USER_SESSION_ID")),
+                   nameof(ProductController), string.Format("product {0} have been updated.", product.name));
+                
                 return RedirectToAction("Index", "Category");
             }
             return View("Edit", product);
@@ -154,12 +150,15 @@ namespace gStringKustomGuitars.Web.Controllers
 
             if (ModelState.IsValid)
             {
-                await _prdApiEnpoint
+                await _apiUri
                      .AppendPathSegment("delete")
                      .PatchJsonAsync(new ProductModel
                      {
                          id = id
                      });
+
+             await AuditTraceAsync(Convert.ToInt32(HttpContext.Session.GetString("_USER_SESSION_ID")),
+                nameof(ProductController), string.Format("product have been deleted."));
             }
 
             return RedirectToAction("Index", "Product");
@@ -196,7 +195,7 @@ namespace gStringKustomGuitars.Web.Controllers
                     product.price = rows[5].ToString();
                     product.image = rows[6].ToString();
 
-                    await _prdApiEnpoint
+                    await _apiUri
                         .AppendPathSegment("insert")
                         .PostJsonAsync(new
                         {
@@ -209,17 +208,18 @@ namespace gStringKustomGuitars.Web.Controllers
                             product.image
                         });
                 }
+
+                await AuditTraceAsync(Convert.ToInt32(HttpContext.Session.GetString("_USER_SESSION_ID")),
+                 nameof(ProductController), "products have been exported.");
             }
 
             return null;
 
         }
 
-
         public async Task<IActionResult> ExportAsync()
         {
-            var apiUrsl = this.ApiBaseUrl + "/Product/";
-            var products = await apiUrsl
+            var products = await _apiUri
               .AppendPathSegment("list")
               .GetJsonAsync<IEnumerable<ProductModel>>();
 
@@ -245,12 +245,37 @@ namespace gStringKustomGuitars.Web.Controllers
 
             }
 
+            await AuditTraceAsync(Convert.ToInt32(HttpContext.Session.GetString("_USER_SESSION_ID")),
+                 nameof(ProductController), "products have been imported.");
+
             return File(System.Text.Encoding.UTF8.GetBytes(sb.ToString()), "text/csv", fileName);
         }
 
         #endregion
 
         #endregion
+
+        #region private methods
+
+        private List<SelectListItem> CategorySelectListItem(IEnumerable<CategoryModel> categoryModels) {
+
+            List<SelectListItem> categories = new();
+            foreach ((CategoryModel item, SelectListItem selectListItem) in
+                from item in categoryModels.Where(cat => cat.isactive == true)
+                let selectListItem = new SelectListItem()
+                select (item, selectListItem))
+            {
+                selectListItem.Value = item.id.ToString();
+                selectListItem.Text = item.name;
+                categories.Add(selectListItem);
+            }
+
+            ViewBag.CategoriesLookup = categories;
+
+            return categories;
+        }
+
+        #endregion 
     }
 
 }

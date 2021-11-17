@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace gStringKustomGuitars.Web
 {
@@ -21,6 +22,10 @@ namespace gStringKustomGuitars.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDistributedMemoryCache();
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(10);//You can set Time   
+            });
             services.AddControllersWithViews();
             //services.Configure<AppSettings>(_configuration.GetSection("AppSettings"));
         }
@@ -30,8 +35,7 @@ namespace gStringKustomGuitars.Web
         {
             if (env.IsDevelopment())
             {
-                app.UseExceptionHandler("/Home/Error");
-                // app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage();              
             }
             else
             {
@@ -41,9 +45,9 @@ namespace gStringKustomGuitars.Web
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -316,7 +316,6 @@ C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gString
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\Login\Create.cshtml.g.cs
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
@@ -335,3 +334,5 @@ C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gString
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\ref\gStringKustomGuitars.Web.dll
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\gStringKustomGuitars.Web.pdb
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\gStringKustomGuitars.Web.genruntimeconfig.cache
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\Razor\Views\User\Create.cshtml.g.cs
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Web\obj\Debug\net5.0\gStringKustomGuitars.Web.csproj.AssemblyReference.cache

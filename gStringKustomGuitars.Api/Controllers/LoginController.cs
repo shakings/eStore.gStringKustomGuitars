@@ -11,10 +11,14 @@ namespace gStringKustomGuitars.Api.Controllers
     {     
         private readonly ILoginService _loginService;
 
+        #region ctor
+        
         public LoginController(ILoginService loginService)
         {          
             this._loginService = loginService;
         }
+
+        #endregion
 
         [HttpPost]
         [Route("auth")]

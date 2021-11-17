@@ -9,3 +9,4 @@ C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gString
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.dll
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\ref\gStringKustomGuitars.Utils.dll
 C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.pdb
+C:\gStringKustomGuitars\eStore.gStringKustomGuitars\gStringKustomGuitars\gStringKustomGuitars.Utils\obj\Debug\net5.0\gStringKustomGuitars.Utils.csproj.AssemblyReference.cache

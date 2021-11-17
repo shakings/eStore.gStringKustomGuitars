@@ -19,7 +19,7 @@ namespace gStringKustomGuitars.Services.Domain.Categories.Builders.Abstractions
 
         public CategoryBuilder(IQuery<PS_CATEGORIES_Results> query,
                                IExecute execute,
-                               IgStringKustomConnection aptConnection) : base(aptConnection)
+                               IgStringKustomConnection igStringKustomConnection) : base(igStringKustomConnection)
         {
             _query = query;
             _execute = execute;

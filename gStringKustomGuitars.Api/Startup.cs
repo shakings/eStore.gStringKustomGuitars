@@ -1,5 +1,8 @@
 using gStringKustomGuitars.Data;
 using gStringKustomGuitars.Data.Abstractions;
+using gStringKustomGuitars.Services.Domain.Audit.Builders.Abstractions;
+using gStringKustomGuitars.Services.Domain.Audit.Services;
+using gStringKustomGuitars.Services.Domain.Audit.Services.Abstractions;
 using gStringKustomGuitars.Services.Domain.Categories.Builders.Abstractions;
 using gStringKustomGuitars.Services.Domain.Categories.Models.Entities;
 using gStringKustomGuitars.Services.Domain.Categories.Services;
@@ -68,7 +71,11 @@ namespace gStringKustomGuitars.Api
             services.AddScoped<IProductBuilder, ProductBuilder>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IQuery<PS_PRODUCTS_Results>, MssqlQuery<PS_PRODUCTS_Results>>();
-}
+
+            services.AddScoped<IAuditBuilder, AuditBuilder>();
+            services.AddScoped<IAuditServices, AuditServices>();
+         
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

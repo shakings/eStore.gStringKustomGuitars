@@ -5,6 +5,7 @@ using gStringKustomGuitars.Web.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -14,25 +15,32 @@ namespace gStringKustomGuitars.Web.Controllers
     public class CategoryController : BaseController
     {
         #region private variables
-
-        private string _catApiEndpoint;
-
+              
+        private string _apiBaseUrl;
+        private string _apiControllerName;
+        private string _apiUri;
+        
         #endregion
 
-        #region constructor
+        #region ctor
 
         public CategoryController(IConfiguration configuration) : base(configuration)
-        {
-            _catApiEndpoint = this.ApiBaseUrl + "/Categories/";
+        {         
+            _apiBaseUrl = this.ApiBaseUrl;
+            _apiControllerName = "/Categories/";
+            _apiUri = string.Format("{0}{1}", _apiBaseUrl, _apiControllerName);
         }
 
         #endregion
 
-        #region controller endpoints
+        #region endpoints
 
         public async Task<IActionResult> Index()
         {
-            var categories = await _catApiEndpoint
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("_USER_SESSION_ID")))
+                return RedirectToAction("Index", "Login");
+
+            var categories = await _apiUri
                 .AppendPathSegment("list")
                 .GetJsonAsync<IEnumerable<CategoryModel>>();
 
@@ -43,6 +51,17 @@ namespace gStringKustomGuitars.Web.Controllers
         {
             return View();
         }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var categories = await _apiUri
+                .AppendPathSegment("listBy")
+               .SetQueryParam("id", value: id)
+               .GetJsonAsync<CategoryModel>();
+            
+            return View(categories);
+        }
+          
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -56,35 +75,30 @@ namespace gStringKustomGuitars.Web.Controllers
                     code = collection["code"]
                 };
 
-                await _catApiEndpoint
+                await _apiUri
                    .AppendPathSegment("insert")
                    .PostJsonAsync(category);
-            }
+
+                await AuditTraceAsync(Convert.ToInt32(HttpContext.Session.GetString("_USER_SESSION_ID")),
+                   nameof(CategoryController), string.Format("category {0} have been created.", category.name));
+            }          
 
             return RedirectToAction("Index", "Category");
 
         }
-
-        public async Task<IActionResult> Edit(int id)
-        {
-            var apiUrl = this.ApiBaseUrl + "/Categories/";
-            var categories = await apiUrl
-                .AppendPathSegment("listBy")
-               .SetQueryParam("id", value: id)
-               .GetJsonAsync<CategoryModel>();
-
-            return View(categories);
-        }
-
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> EditAsync(int id, [FromForm] CategoryModel category)
         {
             if (ModelState.IsValid)
-            {
-                await _catApiEndpoint
+            {              
+                await _apiUri
                   .AppendPathSegment("update")
                   .PutJsonAsync(category);
+
+                await AuditTraceAsync(Convert.ToInt32(HttpContext.Session.GetString("_USER_SESSION_ID")),
+                nameof(CategoryController), string.Format("category {0} have been updated.", category.name));
 
                 return RedirectToAction("Index", "Category");
             }
